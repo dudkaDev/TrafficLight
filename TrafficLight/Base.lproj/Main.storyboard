@@ -31,37 +31,35 @@
                                     <action selector="tappedButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="fZR-8H-Rwt"/>
                                 </connections>
                             </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="55" translatesAutoresizingMaskIntoConstraints="NO" id="gZH-tS-tuE">
-                                <rect key="frame" x="143" y="100" width="128" height="494"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="55" translatesAutoresizingMaskIntoConstraints="NO" id="gZH-tS-tuE">
+                                <rect key="frame" x="147" y="100" width="120" height="470"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FDN-vC-fOv">
-                                        <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
                                         <color key="backgroundColor" systemColor="systemRedColor"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e2d-UT-T2R">
-                                        <rect key="frame" x="0.0" y="183" width="128" height="128"/>
+                                        <rect key="frame" x="0.0" y="175" width="120" height="120"/>
                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PgL-YP-IZp">
-                                        <rect key="frame" x="0.0" y="366" width="128" height="128"/>
+                                        <rect key="frame" x="0.0" y="350" width="120" height="120"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="e2d-UT-T2R" firstAttribute="width" secondItem="PgL-YP-IZp" secondAttribute="height" multiplier="1:1" id="AKC-HV-Zs8"/>
                                     <constraint firstItem="FDN-vC-fOv" firstAttribute="width" secondItem="e2d-UT-T2R" secondAttribute="height" multiplier="1:1" id="QmR-9M-VyE"/>
-                                    <constraint firstItem="PgL-YP-IZp" firstAttribute="width" secondItem="FDN-vC-fOv" secondAttribute="height" multiplier="1:1" id="kiZ-Wn-mxT"/>
                                 </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGrayColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gZH-tS-tuE" secondAttribute="trailing" constant="143" id="0Uz-Af-icv"/>
-                            <constraint firstItem="gZH-tS-tuE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="143" id="Dn7-Zi-1CD"/>
+                            <constraint firstItem="gZH-tS-tuE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2nr-S7-EwP"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="cNw-xR-UvT" secondAttribute="bottom" constant="40" id="Tp9-py-3If"/>
                             <constraint firstItem="cNw-xR-UvT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jcI-ze-fDT"/>
-                            <constraint firstItem="gZH-tS-tuE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="52" id="zcb-aa-mpW"/>
+                            <constraint firstItem="gZH-tS-tuE" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.524554" id="p8o-LR-YN3"/>
+                            <constraint firstItem="gZH-tS-tuE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="52" id="rjx-eP-TTC"/>
                         </constraints>
                     </view>
                     <connections>
